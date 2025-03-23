@@ -1,4 +1,7 @@
-styles.css
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+/* Base Styles */
+body {
     font-family: 'Poppins', sans-serif;
     background-color: #FAF3E0; /* Warm sand-like background */
     color: #333;
@@ -47,6 +50,16 @@ header {
 header h1 {
     font-size: 50px;
     font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Override h1 for horror font (optional) */
+h1 {
+    font-family: 'Creepster', cursive;
+    font-size: 60px;
+    color: #B22222; /* Dark Blood Red */
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7); /* Shadow for eerie effect */
+    text-align: center;
     letter-spacing: 2px;
 }
 
@@ -131,32 +144,4 @@ input, select, textarea {
     section {
         padding: 20px;
     }
-
-
-
-/
-@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
-
-/* Apply Horror Font to h1 */
-h1 {
-    font-family: 'Creepster', cursive;
-    font-size: 60px;
-    color: #B22222; /* Dark Blood Red */
-    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7); /* Shadow for eerie effect */
-    text-align: center;
-    letter-spacing: 2px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
